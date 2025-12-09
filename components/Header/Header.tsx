@@ -69,6 +69,7 @@ export default function Header({
             {menuList.map((v: menuItemType, k) => {
               return (
                 <Link
+                  key={k + v.name}
                   href={v.link}
                   className="text-sm font-medium transition-colors hover:text-primary">
                   {v.name}
@@ -132,6 +133,7 @@ export default function Header({
             {menuList.map((v: menuItemType, k) => {
               return (
                 <Link
+                  key={k + v.name}
                   href={v.link}
                   className="flex flex-col items-center text-xs">
                   <svg className="h-5 w-5 mb-1"></svg>

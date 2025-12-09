@@ -1,4 +1,4 @@
-import {EasyList} from '@/components/EasyList/EasyList'
+import EasyList from '@/components/EasyList/EasyList'
 
 export default function Home() {
   return (
