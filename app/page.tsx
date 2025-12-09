@@ -1,9 +1,10 @@
-import {Button} from '@/components/ui/button'
+import {EasyList} from '@/components/EasyList/EasyList'
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <h1>Easy list</h1>
+      <EasyList />
+    </>
   )
 }
